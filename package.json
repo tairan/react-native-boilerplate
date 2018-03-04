@@ -1,0 +1,30 @@
+{
+  "name": "react-native-boilerplate",
+  "version": "0.0.1",
+  "description": "A react-native boilerplate project.",
+  "private": true,
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "repository": "https://github.com/tairan/react-native-boilerplate.git",
+  "author": "Tairan Wang <tairan.wang@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios"
+  },
+  "dependencies": {
+    "expo": "^25.0.0",
+    "react": "^16.2.0",
+    "react-native": "0.52.0",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.7.0",
+    "eslint-plugin-react-native": "^3.2.1",
+    "react-native-scripts": "^1.11.1"
+  }
+}
